@@ -51,6 +51,7 @@ False Positive (FP) = Patient flagged for more tests unnecessarily
 Improving precision often lowers recall, and vice versa. So it all depends on what's more costly: a false alarm or a missed case.
 
 ================================================
+
 **AUC** stands for Area Under the ROC Curve. It is a single number that summarizes how well your model distinguishes between the two classes.
 
 **Why use AUC?**
