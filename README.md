@@ -14,7 +14,7 @@ If you set a threshold  of 0.5:
 
 But instead of picking just one threshold, ROC explores all thresholds (from 1.0 to 0.0) and shows how TPR and FPR change
 
-================================================================================
+====================
 
 The term “Receiver Operating Characteristic” comes from World War II!
 
