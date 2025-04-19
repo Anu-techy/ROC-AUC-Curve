@@ -1,4 +1,4 @@
-**ROC** stands for Receiver Operating Characteristic curve. It plots TPR vs FPR.
+**ROC** stands for Receiver Operating Characteristic curve. It plots TPR vs FPR for every possible classification threshold
 
 TPR (True Positive Rate) = how many actual positives you correctly identified (Also called Recall)
 
@@ -49,3 +49,18 @@ False Positive (FP) = Patient flagged for more tests unnecessarily
 **Conclusion:**
 
 Improving precision often lowers recall, and vice versa. So it all depends on what's more costly: a false alarm or a missed case.
+
+================================================
+**AUC** stands for Area Under the ROC Curve. It is a single number that summarizes how well your model distinguishes between the two classes.
+
+**Why use AUC?**
+
+Threshold-independent: It evaluates the model across all possible thresholds.
+
+Class-imbalance friendly: Still useful even if your dataset is skewed.
+
+Model comparison: AUC is great for comparing models — higher = better.
+
+
+
+
